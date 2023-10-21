@@ -5,7 +5,7 @@ import java.util.List;
 public class Facturacion1 {
 	record Factura(String cliente,
 				   String fechaDeLaFactura,
-				   List<Double> precioDelProducto) {
+				   List<Double> precioTotalDeFacturacion) {
 	}
 
 	public static void main(String[] args) {
@@ -20,7 +20,7 @@ public class Facturacion1 {
 	}
 
 	private static double calcularTotal(Factura factura) {
-		List<Double> precios = factura.precioDelProducto();
+		List<Double> precios = factura.precioTotalDeFacturacion();
 		double total = 0;
 		for (Double precio : precios) {
 			total += precio;
