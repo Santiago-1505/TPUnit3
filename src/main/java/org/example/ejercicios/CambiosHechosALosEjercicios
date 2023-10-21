@@ -1,0 +1,30 @@
+Parcial de las unidades 1,2,3
+
+Estudiante: Santiago Villegas Naranjo
+
+        A continuación describiré los cambios que le realice a los ejercicios escogidos
+
+                Ejercicio #1  Facturacion1
+
+        - Se cambiaron algunos de los nombres de las variables.
+
+        - Se modificó el código en funciones más pequeñas y específicas para mejorar la legibilidad y el mantenimiento.
+
+        - Se creó el método calcularTotal  para calcular el total de la factura. Esto hace que el código sea más fácil de entender.
+
+        - Se creó un método mostrarFactura para mostrar los detalles de la factura.
+
+
+                Ejercicio #2
+
+        - Se cambiaron los nombres de los atributos del Record.
+
+        - Se cambiaron algunos de los nombres de las variables.
+
+        - Se modificó el código y se refactorizo en algunos métodos.
+
+        - Se creó el método calculoAreaDelTriangulo  para calcular el Área del triángulo.
+
+        - Se creó un método mostrarResultados para mostrar los resultados.
+
+
